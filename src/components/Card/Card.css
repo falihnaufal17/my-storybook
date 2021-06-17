@@ -1,0 +1,31 @@
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding: 16px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    border: unset;
+}
+
+.card-title{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 22px;
+}
+
+.primary{
+    background: #6393CB;
+}
+
+.card.primary .card-title{
+    color: #fff;
+}
+
+.text-center{
+    text-align: center;
+}
