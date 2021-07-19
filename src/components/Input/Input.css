@@ -9,27 +9,11 @@
     height: 0;
 }
 
-.form-control-secondary{
-    padding: 13px 20px;
-    border: 2px solid #6393CB;
-    border-radius: 5px;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 14px;
-    letter-spacing: 0em;
-    height: 0;
-}
-
 .form-control:focus{
     box-shadow: unset;
     outline: unset;
-    border-color: #000
-}
-
-.form-control-secondary:focus{
-    box-shadow: unset;
-    outline: unset;
-    border-color: #6393CB
+    border: 1px solid #6393CB;
+    transition: ease-in-out 0.3s;
 }
 
 .label{

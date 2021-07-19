@@ -16,6 +16,3 @@ Primary.args = {
     placeholder: "Input Address",
     label: "Your Address"
 }
-
-export const Secondary = Template.bind({})
-Secondary.args = { ...Primary.args, className: "form-control form-control-secondary" }

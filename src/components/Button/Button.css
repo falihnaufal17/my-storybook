@@ -1,11 +1,15 @@
+*{
+    font-family: nunito sans;
+}
 .button {
     font-size: 12px;
     font-weight: 500;
     line-height: 20px;
     border: none;
-    padding: 6px 55px;
+    padding: 8px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
     border-radius: 5px;
+    text-align: center;
 }
 
 .button:hover{
@@ -15,4 +19,15 @@
 .primary{
     background-color: #6393CB;
     color: #fff;
+}
+
+.danger{
+    background-color: #FF1111;
+    color: #fff;
+}
+
+.small-button{
+    padding: 4px 11px;
+    font-size: 8px;
+    line-height: 9px;
 }

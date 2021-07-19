@@ -21,12 +21,3 @@ Primary.args = {
     className: "form-control",
     label: "Input your name"
 }
-
-// export const InlinePrimary = Template.bind({})
-// InlinePrimary.args = { ...Primary.args, inline: true }
-
-export const Secondary = Template.bind({})
-Secondary.args = { ...Primary.args, className: "form-control form-control-secondary" }
-
-// export const InlineSecondary = Template.bind({})
-// InlineSecondary.args = { ...Secondary.args, inline: true }
